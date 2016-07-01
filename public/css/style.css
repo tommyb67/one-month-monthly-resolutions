@@ -41,11 +41,13 @@ Author: Christopher Castig | @castig
 #main {
   background: Silver;
   padding: 50px;
+  float: left;
 }
 
 #sidebar {
   background: Blue;
   padding: 50px;
+  float: left;
 }
 
 #footer {
