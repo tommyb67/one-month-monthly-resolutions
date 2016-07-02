@@ -20,13 +20,18 @@ Author: Christopher Castig | @castig
 	clear: both;
 }
 
+.alignright {
+
+}
+
 
 /*-----------------------------------------------------------------------------
 02=CONTAINER
 -----------------------------------------------------------------------------*/
 
 #container {
-
+  width: 1000px;
+  margin: 0 auto 0 auto;
 }
 
 /*-----------------------------------------------------------------------------
@@ -39,12 +44,14 @@ Author: Christopher Castig | @castig
 }
 
 #main {
+  width: 700px;
   background: Silver;
   padding: 50px;
   float: left;
 }
 
 #sidebar {
+  width: 300px;
   background: Blue;
   padding: 50px;
   float: left;
