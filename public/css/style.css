@@ -1,7 +1,7 @@
 /*
 Project Name: Monthly Resolutions
 Client: One Month
-Author: Christopher Castig | @castig
+Author: Tom Brennan | @tommybgreat
 */
 
 
@@ -16,12 +16,26 @@ Author: Christopher Castig | @castig
      box-sizing: border-box; /* IE */
 }
 
+body {
+  background: #ecf0f1;
+}
+
+a {
+  text-decoration: none;
+}
+
 .clear {
 	clear: both;
 }
 
-.alignright {
+.alignleft {
+  float: left;
+  margin: 0 15px 15px 0;
+}
 
+.alignright {
+  float: right;
+  margin: 0 0 15px 15px;
 }
 
 
@@ -39,25 +53,27 @@ Author: Christopher Castig | @castig
 -----------------------------------------------------------------------------*/
 
 #header {
-  background: Red;
+  font-family: 'Lato', sans-serif;
   padding: 50px;
 }
 
 #main {
-  width: 700px;
-  background: Silver;
+  background: white;
+  margin: 10px;
+  width: 680px;
   padding: 50px;
   float: left;
 }
 
 #sidebar {
-  width: 300px;
-  background: Blue;
+  background: white;
+  margin: 10px;
+  width: 280px;
   padding: 50px;
   float: left;
 }
 
 #footer {
-  background: PeachPuff;
-  padding: 50px;
+  background: White;
+  padding: 10px;
 }
