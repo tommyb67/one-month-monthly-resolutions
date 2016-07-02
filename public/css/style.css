@@ -31,12 +31,14 @@ a {
 .alignleft {
   float: left;
   margin: 0 15px 15px 0;
+  width: 590px;
 }
 
 .alignright {
   float: right;
   margin: 0 0 15px 15px;
 }
+
 
 
 /*-----------------------------------------------------------------------------
@@ -54,7 +56,8 @@ a {
 
 #header {
   font-family: 'Lato', sans-serif;
-  padding: 50px;
+  padding: 0 0 0 50px;
+  line-height: 1em;
 }
 
 #main {
@@ -68,12 +71,16 @@ a {
 #sidebar {
   background: white;
   margin: 10px;
-  width: 280px;
-  padding: 50px;
+  width: 250px;
+  padding: 40px;
   float: left;
 }
 
 #footer {
-  background: White;
+  margin: 10px;
   padding: 10px;
+}
+
+#creditText {
+  color: Yellow;
 }
