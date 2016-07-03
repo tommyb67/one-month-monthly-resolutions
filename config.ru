@@ -13,4 +13,3 @@ run lambda { |env|
   ]
 }
 
-@import "bootstrap";
